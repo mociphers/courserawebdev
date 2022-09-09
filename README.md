@@ -1,2 +1,2 @@
 # courserawebdev
-A container for all coursera web development course Assignment, Projects, and Coding Excercises.
+A container for all coursera web development course Assignments, Projects, and Coding Excercises.
