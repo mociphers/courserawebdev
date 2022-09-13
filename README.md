@@ -1,4 +1,4 @@
 # courserawebdev
 A container for all coursera web development course Assignments, Projects, and Coding Excercises.
 
-[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+- <a href="https://mociphers.github.io/courserawebdev/module2-solution/index.html">Assignment 2 Solution</a>
