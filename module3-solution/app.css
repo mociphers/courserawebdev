@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background-color: rgb(132, 0, 255);
+}
+.navbar-brand {
+    color: white;
+}
+
+h1 {
+    color: #212427f1;
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
+.section-container.light-bg {
+    /* background-color: #69f192; */
+    color: #444444;
+}
+.inner {
+    color: #212427f1;
+  
+    border-radius:1.3rem;
+    padding:10px;
+    border: 4px solid black;
+    position: relative;
+}
+.col-lg-4 {
+    padding:20px;
+    
+}
+
+h2 {
+    color: white;
+    width: 150px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 4px solid black;
+    border-radius: 0 0.5rem 0 1.3rem;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p {
+    padding: 52px 20px 10px;
+}
+
+#beef {
+    border-color: #522402;
+}
+#h2-beef {
+    background-color: #522402;
+    border-color: #522402;
+}
+
+
+#chicken{
+    border-color: #F1D043;
+}
+#h2-chicken {
+    background-color: #F1D043;
+    border-color: #F1D043;
+}
+
+
+#sushi {
+    border-color: #f9596f;
+}
+#h2-sushi {
+    background-color: #f9596f;
+    border-color: #f9596f;
+}
