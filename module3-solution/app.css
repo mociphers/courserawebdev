@@ -18,10 +18,6 @@ h1 {
 }
 
 
-.section-container.light-bg {
-    /* background-color: #69f192; */
-    color: #444444;
-}
 .inner {
     color: #212427f1;
   
@@ -32,7 +28,6 @@ h1 {
 }
 .col-lg-4 {
     padding:20px;
-    
 }
 
 h2 {
@@ -53,6 +48,7 @@ p {
     padding: 52px 20px 10px;
 }
 
+/*Color Variation*/
 #beef {
     border-color: #522402;
 }
@@ -77,4 +73,11 @@ p {
 #h2-sushi {
     background-color: #f9596f;
     border-color: #f9596f;
+}
+
+
+@media (min-width: 768px) {
+    .nav-item {
+        display: none;
+    }
 }
