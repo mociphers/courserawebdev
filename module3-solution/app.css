@@ -2,6 +2,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     background-color: rgb(132, 0, 255);
 }
@@ -81,13 +86,24 @@ p {
     background-color: rgb(132, 0, 255);
     border: none;
     position: fixed;
-    bottom: 0;
+    bottom: -50px;
     height: 42px;
-    opacity: 0.3;
+    opacity: 0;
+    transition: all .9s;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btt.active {
-    opacity: 0.95;
+    opacity: 0.98;
+    position: fixed;
+    bottom: 0;
+}
+
+.fa-solid {
+    margin-left: 5px;
 }
 
 @media (min-width: 768px) {
