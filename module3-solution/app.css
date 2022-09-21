@@ -75,9 +75,32 @@ p {
     border-color: #f9596f;
 }
 
+.btt {
+    
+    padding: 0;
+    background-color: rgb(132, 0, 255);
+    border: none;
+    position: fixed;
+    bottom: 0;
+    height: 42px;
+    opacity: 0.3;
+}
+
+.btt.active {
+    opacity: 0.95;
+}
 
 @media (min-width: 768px) {
-    .nav-item {
+    .nav-item, .btt {
         display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    h1, .col-lg-4 {
+        margin-bottom: 50px;
+    }
+    .sushi{
+        margin-bottom: 590px;
     }
 }
